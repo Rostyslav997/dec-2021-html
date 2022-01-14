@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+
+
+        .products {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            width: 500px;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .product-card > h3 {
+            text-align: center;
+            margin: 0;
+        }
+
+        .inner-box {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .inner-box > p {
+            box-sizing: border-box;
+            text-align: justify;
+            padding-right: 10px;
+        }
+
+        img {
+            width: 50px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="products">
+    <div class="product-card">
+        <h3>title</h3>
+        <div class="inner-box">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" alt="">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aut autem dicta dolores explicabo
+                fuga, hic impedit in minus, modi necessitatibus nihil pariatur perspiciatis quo ratione recusandae sed
+                sequi
+                tempore!
+            </p>
+        </div>
+    </div>
+    <div class="product-card">
+        <h3>title</h3>
+        <div class="inner-box">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" alt="">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aut autem dicta dolores explicabo
+                fuga, hic impedit in minus, modi necessitatibus nihil pariatur perspiciatis quo ratione recusandae sed
+                sequi
+                tempore!
+            </p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
